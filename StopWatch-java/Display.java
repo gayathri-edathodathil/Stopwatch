@@ -148,7 +148,7 @@ public class Display extends JPanel {
             startButton.setText("Start");
             currentTime.millisec = 0;
             currentTime.seconds = 0;
-            currentTime.seconds = 0;
+            currentTime.minutes = 0;
             set_time(millisecpanel, currentTime.millisec);
             set_time(secondpanel, currentTime.seconds);
             set_time(minutepanel, currentTime.minutes);
